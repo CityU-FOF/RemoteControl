@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.cmd text eol=crlf
+# Preserve upstream vendor bytes, licenses, and recorded hashes on Windows.
+assistant/static/pdfjs/** -text -whitespace
